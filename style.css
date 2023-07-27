@@ -14,7 +14,7 @@ body {
     padding-bottom: 50px;
 }
 
-.hero {
+.container {
     width: 75%;
     display: flex;
     flex-direction: column;
@@ -59,9 +59,12 @@ a:hover {
     color: #e5e7eb;
 }
 
+.herotitle, .infotitle {
+    font-weight: 800;
+}
+
 .herotitle {
     font-size: 48px;
-    font-weight: 800;
     color: #f9faf8;
 }
 
@@ -95,3 +98,50 @@ button {
     border-radius: 8px;
     border-style: none;
 }
+
+.infosection {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 80px;
+}
+
+.infotitle {
+    padding: 50px 0;
+    font-size: 36px;
+    color: #1f2937;
+}
+
+.informations {
+    display: flex;
+    gap: 20px;
+}
+
+.container.info {
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+    flex: 1 1 auto;
+}
+
+.info {
+    gap: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info > img {
+    border: 4px solid #3882f6;
+    border-radius: 12px;
+    width: 186px;
+}
+
+.text {
+    width: 186px;
+    font-size: 20px;
+    text-align: center;
+}
+
