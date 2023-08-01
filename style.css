@@ -89,14 +89,15 @@ a:hover {
     background-color: #e5e7eb;
 }
 
-button {
+.button {
     background-color: #3882f6;
     color: #f9faf8;
     font-size: 20px;
     font-weight: bold;
-    padding: 6px 28px;
+    padding: 5px 30px;
     border-radius: 8px;
     border-style: none;
+    cursor: pointer;
 }
 
 .infosection {
@@ -145,3 +146,63 @@ button {
     text-align: center;
 }
 
+.quotesection {
+    background-color: #e5e7eb;
+    padding: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    width: 60%;
+}
+
+.quotetext {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.quoteauthor {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    align-self: last baseline;
+}
+
+.signupsection {
+    background-color: #ffffff;
+    padding: 100px 150px;
+}
+
+.signup {
+    padding: 50px 100px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-size: 20px;
+    border-radius: 8px;
+}
+
+.signuptitle {
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.button.reverse {
+    border: 2px solid #f9faf8;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    color: #f9faf8;
+    font-size: 18px;
+    padding: 25px 0px;
+    background-color: #1f2937;
+}
